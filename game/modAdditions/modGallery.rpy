@@ -32,13 +32,14 @@ define galleryMenu = [
     ["All", "/images/a120.webp"],
 ]
 
-define Unknown = GalleryItem("All", 1, "galleryScene1", "/images/a120.webp")
-define Unknown = GalleryItem("All", 1, "galleryScene2", "/images/a191.webp")
-define Unknown = GalleryItem("All", 1, "galleryScene3", "/images/b35.webp")
-define Unknown = GalleryItem("All", 1, "galleryScene4", "/images/b149.webp")
-define Unknown = GalleryItem("All", 1, "CH4RID", "/images/d26.webp")
-define Unknown = GalleryItem("All", 1, "CH4HIKE", "/images/d141.webp")
-define Unknown = GalleryItem("All", 1, "galleryScene5", "/images/e26.webp")
+define Unknown = GalleryItem("All", 1, "galleryScene1", "a120.webp")
+define Unknown = GalleryItem("All", 1, "galleryScene2", "a191.webp")
+define Unknown = GalleryItem("All", 1, "galleryScene3", "b35.webp")
+define Unknown = GalleryItem("All", 1, "galleryScene4", "b149.webp")
+define Unknown = GalleryItem("All", 1, "CH4RID", "d26.webp")
+define Unknown = GalleryItem("All", 1, "CH4HIKE", "d141.webp")
+define Unknown = GalleryItem("All", 1, "galleryScene5", "e26.webp")
+define Irene = GalleryItem("All", 1, "galleryScene6", "f167.webp")
 
 label galleryNameChange:
     default persistent.p_name = ""

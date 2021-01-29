@@ -250,7 +250,7 @@ label U5re:
                 scene e5
                 with dissolve
 
-                "So without further ado, you and Norah begin the erotic series called 'Flies on the Wall."
+                "So without further ado, you and Norah begin the erotic series called 'Flies on the Wall.'"
 
                 "*minutes later*"
 
@@ -858,7 +858,7 @@ label U5co:
 
         N "Well, I believe in my man."
 
-        "Hearing her declare you're her man so easily makes your dick harden. Though her big tits pressed into your arm may also play a factor."
+        "Hearing her declare you're her man so easily makes your dick harden."
 
         P "(So does that mean she considers us boyfriend and girlfriend, and not just 'dating'?)"
 
@@ -993,7 +993,7 @@ label U5co:
 
                 P "You should've seen me yesterday out here setting all of this up. I couldn't hit any of the targets until my very last try. And trust me, there were plenty before that."
 
-                scene e49
+                scene e58
                 with dissolve
 
                 N "Heh, really?"
@@ -1011,7 +1011,7 @@ label U5co:
 
                 P "What? You mean you didn't hit the target your first time shooting a gun, ever? That's unacceptable, Norah. Get your things, this date is over."
 
-                scene e49
+                scene e58
                 with dissolve
 
                 N "Heh… I guess I am bein' a bit silly, aren't I?"
@@ -1978,7 +1978,7 @@ label U5cl:
 
             WO "Yes."
 
-            P "She answers, but you hear Vanessa's voice instead."
+            "She answers, but you hear Vanessa's voice instead."
 
             P "Ha… you were testing me."
 
@@ -1995,7 +1995,7 @@ label U5ca:
 
     P "(Right back down to business…)"
 
-    "A part of you wants to quit or complain, but you know that is a sure-fire way to disappoint Zoe, and it'll screw my chances of finding out what's going on with her."
+    "A part of you wants to quit or complain, but you know that is a sure-fire way to disappoint Zoe, and it'll screw your chances of finding out what's going on with her."
 
     P "(I'll suck it up for now… But I don't know how much longer I can a hold out.)"
 
@@ -2280,7 +2280,7 @@ label U5ca:
     scene e133 #Z kiss cam forehead
     with dissolve
 
-    P "smile* (One of Zoe's kisses. That's super rare.)"
+    P "*smile* (One of Zoe's kisses. That's super rare.)"
 
     scene e134-2 #Z sit smile
     with dissolve
@@ -2575,11 +2575,3 @@ label U5po:
         "You leave Zoe's room and think about how you're going to catch her colleague."
 
         jump U6
-
-label U6:
-
-    "OKAY, PEOPLE. THIS IS THE END OF UPDATE 5 FOR SECRET SUMMER."
-
-    "IF YOU WANT TO SEE MORE. PLEASE CONSIDER SUPPORTING MY PATREON. EVERY DOLLAR HELPS, SERIOUSLY."
-
-    "SEE YOU NEXT UPDATE!"

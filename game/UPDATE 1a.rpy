@@ -18,6 +18,7 @@ define M = Character('Miracle', color="#ffffff")
 define TG = Character('Tattooed Girl', color="#ffffff")
 define BG = Character('Brunette Girl', color="#ffffff")
 define HH = Character('[h_name]', color="#ffffff")
+define PL = Character('Phil Lowry', color="#ffffff")
 
 default con1 = False
 default con2 = False
@@ -34,6 +35,10 @@ define Cbf = False
 define Cpanties = False
 define Cbf = False
 define Zeek = False
+define Imf = False
+define Ikiss = False
+
+
 
 jump start
 
@@ -51,7 +56,6 @@ label start:
     define zroute = False
     define nporn = False
     define zsecret = False
-
 
     "Before you play Secret Summer, you have to define some relationships. I know it's annoying, but better to get it out of the way now so that you can focus on the game."
     scene bg
