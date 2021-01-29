@@ -439,7 +439,7 @@ label galleryScene3:
               P "*swallow* I think I would very much like that."
 
               Z "Well, maybe next time. Looks like someone’s come to disturb the fun."
-
+              $renpy.end_replay()
               jump desire1
 
          "Control your lust, you filthy animal":
