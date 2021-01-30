@@ -4,7 +4,7 @@ style modTextHeader is text:
     align(0,0)
     padding(0,0)
     spacing 0
-    font "Rounded_Elegance.ttf"
+#    font "Rounded_Elegance.ttf"
 
 style modTextBody is text:
     size 50

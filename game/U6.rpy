@@ -1949,7 +1949,7 @@ label U6hotel:
             $ iroute = True
 
             $ ipts = ipts + 3
-
+            label galleryScene6:
             P "*smile* There's nothing to forgive because I love you too, Irene… "
 
             scene f154 #I surprised
@@ -2262,7 +2262,7 @@ label U6hotel:
             I "*giggle* Well, I'm glad you can tolerate my personality."
 
             P "The things I do for love, right?"
-
+            $renpy.end_replay()
             scene bs
             with dissolve
 
