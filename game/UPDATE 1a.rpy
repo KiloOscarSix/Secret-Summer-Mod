@@ -19,6 +19,9 @@ define TG = Character('Tattooed Girl', color="#ffffff")
 define BG = Character('Brunette Girl', color="#ffffff")
 define HH = Character('[h_name]', color="#ffffff")
 define PL = Character('Phil Lowry', color="#ffffff")
+define RO = Character('Robot', color="#ffffff")
+define RV = Character('Robotic Voice', color="#ffffff")
+define SG = Character('Sarah Green', color="#ffffff")
 
 default con1 = False
 default con2 = False

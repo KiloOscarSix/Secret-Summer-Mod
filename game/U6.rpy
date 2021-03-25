@@ -2269,11 +2269,3 @@ label U6hotel:
             "You and Irene have breakfast, and you hang around a bit before going home."
 
             jump U7
-
-label U7:
-
-    "OKAY, PEOPLE. THIS IS THE END OF UPDATE 6 FOR SECRET SUMMER."
-
-    "IF YOU WANT TO SEE MORE. PLEASE CONSIDER SUPPORTING MY PATREON. EVERY DOLLAR HELPS, SERIOUSLY."
-
-    "SEE YOU NEXT UPDATE!"
