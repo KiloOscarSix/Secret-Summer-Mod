@@ -1,10 +1,11 @@
 init python:
+    import math
     galleryItems = []
 
     class GalleryItem:
-        def __init__(self, char, pageNum, label, thumbnail, scope=None):
+        def __init__(self, char, label, thumbnail, scope=None):
             self.char = char
-            self.pageNum = pageNum
+            self.pageNum = int(math.floor(len(filter(lambda s: s.char == char, galleryItems))/8)) + 1
             self.label = label
             if scope is None:
                 scope = {}
@@ -29,17 +30,23 @@ default galleryPageNumber = 1
 default scopeDict = {}
 
 define galleryMenu = [
-    ["All", "/images/a120.webp"],
+    ["Zoe", "/images/a120.webp"],
+    ["Leanne", "/images/a191.webp"],
+    ["Coral", "/images/d31.webp"],
+    ["Norah", "/images/b149.webp"],
+    ["Irene", "/images/f150.webp"],
 ]
 
-define Unknown = GalleryItem("All", 1, "galleryScene1", "a120.webp")
-define Unknown = GalleryItem("All", 1, "galleryScene2", "a191.webp")
-define Unknown = GalleryItem("All", 1, "galleryScene3", "b35.webp")
-define Unknown = GalleryItem("All", 1, "galleryScene4", "b149.webp")
-define Unknown = GalleryItem("All", 1, "CH4RID", "d26.webp")
-define Unknown = GalleryItem("All", 1, "CH4HIKE", "d141.webp")
-define Unknown = GalleryItem("All", 1, "galleryScene5", "e26.webp")
-define Irene = GalleryItem("All", 1, "galleryScene6", "f167.webp")
+define Unknown = GalleryItem("Zoe", "galleryScene1", "a120.webp")
+define Unknown = GalleryItem("Leanne", "galleryScene2", "a191.webp")
+define Unknown = GalleryItem("Zoe", "galleryScene3", "b35.webp")
+define Unknown = GalleryItem("Norah", "galleryScene4", "b149.webp")
+define Unknown = GalleryItem("Coral", "CH4RID", "d26.webp")
+define Unknown = GalleryItem("Leanne", "CH4HIKE", "d141.webp")
+define Unknown = GalleryItem("Norah", "galleryScene5", "e26.webp")
+define Irene = GalleryItem("Irene", "galleryScene6", "f167.webp")
+define Coral = GalleryItem("Coral", "U7buffet", "g72.webp", {"Cbf": True})
+define Leanne = GalleryItem("Leanne", "galleryScene7", "h69.webp", {"lpts": 7, "Lraw": False})
 
 label galleryNameChange:
     default persistent.p_name = ""
@@ -122,8 +129,8 @@ screen sceneCharacterMenu(galleryCharacter="All"):
 
         imagebutton:
             if galleryPageNumber == 1:
-                # action Show("sceneGalleryMenu"), Hide("sceneCharacterMenu")
-                action [Hide("sceneGalleryMenu"), ShowMenu("main_menu")]
+                action Show("sceneGalleryMenu"), Hide("sceneCharacterMenu")
+                # action [Hide("sceneGalleryMenu"), ShowMenu("main_menu")]
             else:
                 action Function(galleryDecreasePageNumber)
             idle "/modAdditions/images/backButton.png"
