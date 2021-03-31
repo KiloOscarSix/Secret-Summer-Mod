@@ -22,7 +22,7 @@ screen main_menu():
 
         imagebutton idle "gui/logo_idle.png" hover "gui/logo_hover.png" focus_mask True action OpenURL ("https://www.patreon.com")
 
-        textbutton "Scene Gallery" action [ui.callsinnewcontext("galleryNameChange"), Show("sceneCharacterMenu")] text_style "modTextButtonHeader"
+        textbutton "Scene Gallery" action [ui.callsinnewcontext("galleryNameChange"), Show("sceneGalleryMenu")] text_style "modTextButtonHeader"
 
         if renpy.variant("pc"):
             imagebutton idle "gui/quit_idle.png" hover "gui/quit_hover.png" focus_mask True action Quit(confirm=not main_menu)
