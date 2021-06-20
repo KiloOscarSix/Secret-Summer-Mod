@@ -236,9 +236,7 @@ label U7:
 
         menu:
 
-            "[gr]Ask her to model [Mod makes sures you have enough points]":
-                if cpts < 3:
-                    $ cpts = 3
+            "[gr]Ask her to model":
 
                 if cpts >= 2:
 
@@ -2502,14 +2500,3 @@ label U7sex:
     $renpy.end_replay()
 
     jump U8
-
-label U8:
-
-scene bs
-with dissolve
-
-"OKAY, PEOPLE. THIS IS THE END OF UPDATE 7 FOR SECRET SUMMER."
-
-"IF YOU WANT TO SEE MORE. PLEASE CONSIDER SUPPORTING MY PATREON. EVERY DOLLAR HELPS, SERIOUSLY."
-
-"SEE YOU NEXT UPDATE!"

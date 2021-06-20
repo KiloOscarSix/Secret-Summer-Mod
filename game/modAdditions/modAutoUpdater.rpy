@@ -1,32 +1,23 @@
 init python:
-    try:
+    def isUpToDate(fileName, url):
         import requests
         import hashlib
-        import logging
-    except:
-        pass
-    else:
-        def isUpToDate(fileName, url):
-            f = open(fileName, "r")
-            file = f.read()
-            f.close()
-            hash = hashlib.sha256((file).encode('utf-8')).hexdigest()
 
-            urlcode = requests.get(url).text
-            urlhash = hashlib.sha256((urlcode).encode('utf-8')).hexdigest()
+        f = open(fileName, "r")
+        file = f.read()
+        f.close()
+        hash = hashlib.sha256((file).encode('utf-8')).hexdigest()
 
-            if hash == urlhash:
-                return True
-            else:
-                return False
+        urlcode = requests.get(url).text
+        urlhash = hashlib.sha256((urlcode).encode('utf-8')).hexdigest()
 
-    modConfigPath = os.path.join(config.basedir, "game", "modAdditions", "modConfig.txt")
+        if hash == urlhash:
+            return True
+        return False
 
-    def updateChecker():
+    def upToDate():
+        modConfigPath = os.path.join(config.basedir, "game", "modAdditions", "modConfig.txt")
         try:
-            if not isUpToDate(modConfigPath, "https://raw.githubusercontent.com/KiloOscarSix/Secret-Summer-Mod/main/game/modAdditions/modConfig.txt"):
-                return True
-            else:
-                return False
+            return isUpToDate(modConfigPath, "https://raw.githubusercontent.com/KiloOscarSix/Sun-Breed-Mod/main/game/modAdditions/modConfig.txt")
         except:
-            return False
+            return True

@@ -35,11 +35,3 @@ screen main_menu():
 
             text "[config.version]":
                 style "main_menu_version"
-            
-    # imagebutton:
-    #     action [ui.callsinnewcontext("galleryNameChange"), Show("sceneCharacterMenu")]
-    #     idle Transform("modAdditions/images/cloud.png", zoom=0.4)
-    #     hover Transform(im.MatrixColor("modAdditions/images/cloud.png", im.matrix.brightness(0.2)), zoom=0.4)
-    #     align (1.0, 0.025)
-    #     background None
-    #     hover_background None

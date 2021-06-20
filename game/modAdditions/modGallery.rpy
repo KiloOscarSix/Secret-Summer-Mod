@@ -1,25 +1,17 @@
 init python:
-    import math
     galleryItems = []
 
     class GalleryItem:
         def __init__(self, char, label, thumbnail, scope=None):
             self.char = char
-            self.pageNum = int(math.floor(len(filter(lambda s: s.char == char, galleryItems))/8)) + 1
+            self.pageNum = len(filter(lambda s: s.char == char, galleryItems))//8 + 1
             self.label = label
-            if scope is None:
-                scope = {}
-            self.scope = scope
-            self.thumbnail = os.path.join("/images/", "{}".format(thumbnail))
+
+            if scope is None: self.scope = {}
+            else: self.scope = scope
+
+            self.thumbnail = os.path.join("/images/", thumbnail)
             galleryItems.append(self)
-
-    def galleryDecreasePageNumber():
-        global galleryPageNumber
-        galleryPageNumber -= 1
-
-    def galleryIncreasePageNumber():
-        global galleryPageNumber
-        galleryPageNumber += 1
 
     def updateScope(newScope):
         rv = scopeDict.copy()
@@ -47,6 +39,8 @@ define Unknown = GalleryItem("Norah", "galleryScene5", "e26.webp")
 define Irene = GalleryItem("Irene", "galleryScene6", "f167.webp")
 define Coral = GalleryItem("Coral", "U7buffet", "g72.webp", {"Cbf": True})
 define Leanne = GalleryItem("Leanne", "galleryScene7", "h69.webp", {"lpts": 7, "Lraw": False})
+define Norah = GalleryItem("Norah", "galleryScene8", "i46.webp")
+define Zoe = GalleryItem("Zoe", "galleryScene9", "i229.webp")
 
 label galleryNameChange:
     default persistent.p_name = ""

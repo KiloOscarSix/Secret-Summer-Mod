@@ -1663,8 +1663,6 @@ label galleryScene4:
               stop music
               P "(I-I don’t know what to say, but I’m not ready for that!)"
 
-
-
               P "Um, I’m not sure what you mean."
 
               scene b144 #Norah surprised exp

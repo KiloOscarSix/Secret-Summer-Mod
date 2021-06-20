@@ -1,4 +1,6 @@
 define gr = "{color=#0f0}"
+define red = "{color=#f00}"
+define blue = "{color=#00f}"
 
 default NorahPath = "{color=#0f0}[Norah Path]"
 default ZoePath = "{color=#0f0}[Zoe Path]"

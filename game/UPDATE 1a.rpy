@@ -22,6 +22,10 @@ define PL = Character('Phil Lowry', color="#ffffff")
 define RO = Character('Robot', color="#ffffff")
 define RV = Character('Robotic Voice', color="#ffffff")
 define SG = Character('Sarah Green', color="#ffffff")
+define GI = Character('Little Girl', color="#ffffff")
+define ML = Character('Miguel Lopez', color="#ffffff")
+define MA = Character('Man', color="#ffffff")
+define DD = Character('Dealer', color="#ffffff")
 
 default con1 = False
 default con2 = False
@@ -59,6 +63,9 @@ label start:
     define zroute = False
     define nporn = False
     define zsecret = False
+    define Lraw = False
+    default timeout = 1.0
+    default timeout_label = None
 
     "Before you play Secret Summer, you have to define some relationships. I know it's annoying, but better to get it out of the way now so that you can focus on the game."
     scene bg
