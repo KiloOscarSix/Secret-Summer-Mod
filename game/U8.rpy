@@ -1,7 +1,10 @@
 label U8:
-scene bs
-with dissolve
+
 if nroute == True:
+    scene bs
+    with dissolve
+
+    "A little time passes and the issue of Norah comes up once more."
 
     scene i1-1 #mc sitting
     with dissolve
@@ -1272,1053 +1275,1099 @@ if nroute == True:
 
                         "You all begin on the initial stages of opening up a bakery until Irene has to leave for other business."
 
-                    "As a little time passes, you think about Zoe and how you can solve her problem of her co-worker threatening to reveal her romance blog if she doesn't stop investigating him."
+if zroute == True:
 
-                    "And you do finally come up with a solution, so you head straight for her room."
+    scene bs
+    with dissolve
 
-                    scene i120 #Z sit on bed, anxious look at cam, Base???
-                    with dissolve
+    "As more time passes, you think about Zoe and how you can solve her problem of her co-worker threatening to reveal her romance blog if she doesn't stop investigating him."
 
-                    Z "You've truly come up with a plan? What is it???"
+    "And you do finally come up with a solution, so you head straight for her room."
 
-                    P "We're going to track your colleague… Miguel Lopez, right?"
+    scene i120 #Z sit on bed, anxious look at cam, Base???
+    with dissolve
 
-                    scene i121 #Z frown
-                    with dissolve
+    Z "You've truly come up with a plan? What is it???"
 
-                    Z "THAT is your grand plan? Are you forgetting following him is how I ended up in this predicament in the first place?"
+    P "We're going to track your colleague… Miguel Lopez, right?"
 
-                    P "No offense, Zo', but covertness and sneaking around and stuff isn't exactly your forte."
+    scene i121 #Z frown
+    with dissolve
 
-                    scene i122 #Z neu move hand
-                    with dissolve
+    Z "THAT is your grand plan? Are you forgetting following him is how I ended up in this predicament in the first place?"
 
-                    Z "Why is it that every time someone says 'no offense' they say something offensive?"
+    P "No offense, Zo', but covertness and sneaking around and stuff isn't exactly your forte."
 
-                    P "Haha, I get what you mean, but I'm just saying you're a 'straight to the punch' type of gal. Nothing wrong with that, we just need a different approach this time."
+    scene i122 #Z neu move hand
+    with dissolve
 
-                    Z "I suppose you have a point… Dropping a bomb to kill a fly might get the job done, but using a swatter is much more efficient."
+    Z "Why is it that every time someone says 'no offense' they say something offensive?"
 
-                    scene i123 #Mc move hand
-                    with dissolve
+    P "Haha, I get what you mean, but I'm just saying you're a 'straight to the punch' type of gal. Nothing wrong with that, we just need a different approach this time."
 
-                    P "Exactly. So we're going to tail him for the whole day and see what shenanigans he gets up to. You said he was meeting with some shady people, so we'll be able to take some pics as evidence."
+    Z "I suppose you have a point… Dropping a bomb to kill a fly might get the job done, but using a swatter is much more efficient."
 
-                    Z "Hmmm, yes. Simplistic, but that sounds like it'll work."
+    scene i123 #Mc move hand
+    with dissolve
 
-                    scene i123-2 #Z neu
-                    with dissolve
+    P "Exactly. So we're going to tail him for the whole day and see what shenanigans he gets up to. You said he was meeting with some shady people, so we'll be able to take some pics as evidence."
 
-                    Z "Good job, [p_name]."
+    Z "Hmmm, yes. Simplistic, but that sounds like it'll work."
 
-                    P "*wink* Anything for you, beautiful."
+    scene i123-2 #Z neu
+    with dissolve
 
-                    scene i125 #Z smile
-                    with dissolve
+    Z "Good job, [p_name]."
 
-                    Z "*giggle* Really, you're so silly."
+    P "*wink* Anything for you, beautiful."
 
-                    scene bs
-                    with dissolve
+    scene i125 #Z smile
+    with dissolve
 
-                    "You and Zoe don't waste any time and head out to your target's house."
+    Z "*giggle* Really, you're so silly."
 
-                    scene i126 #cam look at house from car
-                    with dissolve
+    scene bs
+    with dissolve
 
-                    P "Ugh, we've been sitting out here for hours, and he hasn't made a move. No idea how detectives do this."
+    "You and Zoe don't waste any time and head out to your target's house."
 
-                    "Zoe doesn't respond."
+    scene i126 #cam look at house from car
+    with dissolve
 
-                    scene i127 #cam on sleep Z
-                    with dissolve
+    P "Ugh, we've been sitting out here for hours, and he hasn't made a move. No idea how detectives do this."
 
-                    P "Zoe, did you…"
+    "Zoe doesn't respond."
 
-                    P "(Oh, she's sleeping. Can't say I blame her, but I should probably wake her up.)"
+    scene i127 #cam on sleep Z
+    with dissolve
 
-                    scene i130 #cam closer
-                    with dissolve
+    P "Zoe, did you…"
 
-                    "You go to do so, but are not able to resist your urge to stare at her pretty face."
+    P "(Oh, she's sleeping. Can't say I blame her, but I should probably wake her up.)"
 
-                    P "(Out of all the girls, Zoe is by far the most serious, but she wasn't always this way. I remember her being a lot more carefree.)"
+    scene i130 #cam closer
+    with dissolve
 
-                    P "(But her change in personality hasn't affected her beauty at all, her pretty lips, soft skin...)"
+    "You go to do so, but are not able to resist your urge to stare at her pretty face."
 
-                    scene i131 #z eyes open
-                    with dissolve
+    P "(Out of all the girls, Zoe is by far the most serious, but she wasn't always this way. I remember her being a lot more carefree.)"
 
-                    Z "[p_name], may I ask what you are doing?"
+    P "(But her change in personality hasn't affected her beauty at all, her pretty lips, soft skin...)"
 
-                    P "Ah! I, uh, I… was just looking at your sleeping face… You just have such nice skin and all…"
+    scene i131 #z eyes open
+    with dissolve
 
-                    Z "…"
+    Z "[p_name], may I ask what you are doing?"
 
-                    scene i131-2 #cam look down
-                    with dissolve
+    P "Ah! I, uh, I… was just looking at your sleeping face… You just have such nice skin and all…"
 
-                    P "(Shit, does she not believe me?)"
+    Z "…"
 
-                    scene i132 #z smile
-                    with dissolve
+    scene i131-2 #cam look down
+    with dissolve
 
-                    Z "Thank you. I take a lot of time and care for my beauty skincare regimen, so it does feel good to hear it acknowledged."
+    P "(Shit, does she not believe me?)"
 
-                    Z "I'll be happy to give you some tips if you're interested."
+    scene i132 #z smile
+    with dissolve
 
-                    P "Oh, I'm not really…"
+    Z "Thank you. I take a lot of time and care for my beauty skincare regimen, so it does feel good to hear it acknowledged."
 
-                    scene i133 #Z turn to look in bag
-                    with dissolve
+    Z "I'll be happy to give you some tips if you're interested."
 
-                    Z "Oh, actually, I have these amazing wipes that do wonders if you're in a hurry…"
+    P "Oh, I'm not really…"
 
-                    Z "Where are those stupid things?"
+    scene i133 #Z turn to look in bag
+    with dissolve
 
-                    "Zoe roots around in her bag."
+    Z "Oh, actually, I have these amazing wipes that do wonders if you're in a hurry…"
 
-                    Z "Ah, here they are!"
+    Z "Where are those stupid things?"
 
-                    scene i134 #Z in cam face wiping
-                    with dissolve
+    "Zoe roots around in her bag."
 
-                    "Zoe starts wiping your face."
+    Z "Ah, here they are!"
 
-                    Z "Your skin actually isn't that bad, [p_name]. I'm not getting much dirt from your pores."
+    scene i134 #Z in cam face wiping
+    with dissolve
 
-                    "You try not to react to the pleasant sensation of her sweet breath softly hitting you, and her chest lightly pressed against yours as she keeps working."
+    "Zoe starts wiping your face."
 
-                    scene i135 #Z clean other spot
-                    with dissolve
+    Z "Your skin actually isn't that bad, [p_name]. I'm not getting much dirt from your pores."
 
-                    P "*clear throat* Yeah… I just try to drink a lot of water."
+    "You try not to react to the pleasant sensation of her sweet breath softly hitting you, and her chest lightly pressed against yours as she keeps working."
 
-                    Z "That's great, [p_name]! You would be surprised at just how many people are dehydrated on a daily basis."
+    scene i135 #Z clean other spot
+    with dissolve
 
-                    scene i136 #Z surprised look past cam
-                    with dissolve
+    P "*clear throat* Yeah… I just try to drink a lot of water."
 
-                    P "Oh, his car is leaving!"
+    Z "That's great, [p_name]! You would be surprised at just how many people are dehydrated on a daily basis."
 
-                    Z "What?"
+    scene i136 #Z surprised look past cam
+    with dissolve
 
-                    $ timeout_label = "missedit"
-                    menu (screen = "timer_choice"):
-                        "Put the car in drive! [ZoePath]":
+    P "Oh, his car is leaving!"
 
-                            $ zpts = zpts + 1
+    Z "What?"
 
-                            scene i137 #cam drive
-                            with dissolve
+    $ timeout_label = "missedit"
+    menu (screen = "timer_choice"):
+        "Put the car in drive! [ZoePath]":
 
-                            "You quickly get a hold of the situation and start driving."
+            $ zpts = zpts + 1
 
-                            jump U8drive
+            scene i137 #cam drive
+            with dissolve
 
-                    label missedit:
+            "You quickly get a hold of the situation and start driving."
 
-                    "It takes you a moment, but you get a hold of the situation and start driving."
+            jump U8drive
 
-                    jump U8drive
+    label missedit:
 
-                    label U8drive:
+    "It takes you a moment, but you get a hold of the situation and start driving."
 
-                    scene bs
-                    with dissolve
+    jump U8drive
 
-                    "You make sure to stay at a good distance from Zoe's co-worker as you follow him to an alley downtown, and then follow on foot."
+    label U8drive:
 
-                    scene i138 #cam on coworker standing around, Z peeking around corner
-                    with dissolve
+    scene bs
+    with dissolve
 
-                    P "*whisper* Man, this couldn't be any more suspicious if he started talking in code."
+    "You make sure to stay at a good distance from Zoe's co-worker as you follow him to an alley downtown, and then follow on foot."
 
-                    Z "Hehe, I know."
+    scene i138 #cam on coworker standing around, Z peeking around corner
+    with dissolve
 
-                    scene i139 #cam on Z
-                    with dissolve
+    P "*whisper* Man, this couldn't be any more suspicious if he started talking in code."
 
-                    P "Did you just laugh?"
+    Z "Hehe, I know."
 
-                    Z "Sorry, it's just that this is like the detective novels I read! Trailing the bad guy to find out the shady workings of the underworld."
+    scene i139 #cam on Z
+    with dissolve
 
-                    P "*laugh* Easy there, Sherlock. We're just trying to figure out what your guy has going…"
+    P "Did you just laugh?"
 
-                    scene i140 #ML meet with shady person
-                    with dissolve
+    Z "Sorry, it's just that this is like the detective novels I read! Trailing the bad guy to find out the shady workings of the underworld."
 
-                    P "Oh, someone else finally showed up. Is this one of the guys who you saw him meeting with before?"
+    P "*laugh* Easy there, Sherlock. We're just trying to figure out what your guy has going…"
 
-                    Z "Hmmm, no. The other two were bald and more muscular."
+    scene i140 #ML meet with shady person
+    with dissolve
 
-                    P "(Ah… that doesn't sound too inviting. I hope we're not getting in over our heads here.)"
+    P "Oh, someone else finally showed up. Is this one of the guys who you saw him meeting with before?"
 
-                    Z "I can't really hear what they're saying."
+    Z "Hmmm, no. The other two were bald and more muscular."
 
-                    scene i141 #dealer go to pull something out
-                    with dissolve
+    P "(Ah… that doesn't sound too inviting. I hope we're not getting in over our heads here.)"
 
-                    P "We might not need to hear anything. Look, he's pulling something out."
+    Z "I can't really hear what they're saying."
 
-                    P "(Probably drugs or something. This will be plenty of evidence we need against him.)"
+    scene i141 #dealer go to pull something out
+    with dissolve
 
-                    scene i142 #cam pull out phone, drug dealer show toy
-                    with dissolve
+    P "We might not need to hear anything. Look, he's pulling something out."
 
-                    P "(There we go, show the… What?)"
+    P "(Probably drugs or something. This will be plenty of evidence we need against him.)"
 
-                    Z "What? Is that a teddy bear?"
+    scene i142 #cam pull out phone, drug dealer show toy
+    with dissolve
 
-                    P "Looks like it… Maybe it has drugs inside or something?"
+    P "(There we go, show the… What?)"
 
-                    scene i143 #ML excited
-                    with dissolve
+    Z "What? Is that a teddy bear?"
 
-                    ML "Ha, you were able to get the limited edition version! I've gone to almost every store for this!"
+    P "Looks like it… Maybe it has drugs inside or something?"
 
-                    DD "Keep your voice down! You want me to get fired from their company?!"
+    scene i143 #ML excited
+    with dissolve
 
-                    P "Wha… I guess it really is just a toy. What the heck."
+    ML "Ha, you were able to get the limited edition version! I've gone to almost every store for this!"
 
-                    scene i144 #Z stand up to talk to cam
-                    with dissolve
+    DD "Keep your voice down! You want me to get fired from their company?!"
 
-                    Z "Hm, maybe he has children?"
+    P "Wha… I guess it really is just a toy. What the heck."
 
-                    P "Yeah, guess this was too good to be true."
+    scene i144 #Z stand up to talk to cam
+    with dissolve
 
-                    scene i145 #Z pat cam shoulder
-                    with dissolve
+    Z "Hm, maybe he has children?"
 
-                    "Zoe pats your shoulder."
+    P "Yeah, guess this was too good to be true."
 
-                    Z "Don't fret. We just need to keep following him, right?"
+    scene i145 #Z pat cam shoulder
+    with dissolve
 
-                    P "*smile* Like your detective novels?"
+    "Zoe pats your shoulder."
 
-                    Z "Hehe, exactly!"
+    Z "Don't fret. We just need to keep following him, right?"
 
-                    scene bs
-                    with dissolve
+    P "*smile* Like your detective novels?"
 
-                    "So that's what you two do for the rest of the day, doing your best to stay hidden while you follow Miguel Lopez."
+    Z "Hehe, exactly!"
 
-                    "But just like his first stop, everywhere he goes is inconsequential, until he finally stops at a bar for the rest of the night."
+    scene bs
+    with dissolve
 
-                    "And the same happens the next day."
+    "So that's what you two do for the rest of the day, doing your best to stay hidden while you follow Miguel Lopez."
 
-                    scene i146 # bar from car window
-                    with dissolve
+    "But just like his first stop, everywhere he goes is inconsequential, until he finally stops at a bar for the rest of the night."
 
-                    Z "Ugh, he's at this bar again? No wonder his work performance has been less than satisfactory lately."
+    "And the same happens the next day."
 
-                    P "And you both go back to work starting tomorrow, right?"
+    scene i146 # bar from car window
+    with dissolve
 
-                    scene i147 #Z at cam
-                    with dissolve
+    Z "Ugh, he's at this bar again? No wonder his work performance has been less than satisfactory lately."
 
-                    Z "Yes. So it looks like we'll have to put our little stakeouts on hold for the time being."
+    P "And you both go back to work starting tomorrow, right?"
 
-                    P "Or maybe we don't."
+    scene i147 #Z at cam
+    with dissolve
 
-                    scene i148 #Z confused tilt head
-                    with dissolve
+    Z "Yes. So it looks like we'll have to put our little stakeouts on hold for the time being."
 
-                    Z "What are you talking about?"
+    P "Or maybe we don't."
 
-                    P "Listen… I know what I'm about to say may sound a little cuckoo, but hear me out. What if we break into his house and get our evidence?"
+    scene i148 #Z confused tilt head
+    with dissolve
 
-                    Z "You're right, you sound cuckoo, but more than a little."
+    Z "What are you talking about?"
 
-                    Z "Did you even think about the ramifications if we're caught trespassing?"
+    P "Listen… I know what I'm about to say may sound a little cuckoo, but hear me out. What if we break into his house and get our evidence?"
 
-                    scene i146
-                    with dissolve
+    Z "You're right, you sound cuckoo, but more than a little."
 
-                    P "I know, I know. But he stays out practically all night, and he does live alone, right?"
+    Z "Did you even think about the ramifications if we're caught trespassing?"
 
-                    Z "*sigh*"
+    scene i146
+    with dissolve
 
-                    scene i149 #Z close eyes, think pose
-                    with dissolve
+    P "I know, I know. But he stays out practically all night, and he does live alone, right?"
 
-                    Z "*exhale* I'm going to regret this. I know I am."
+    Z "*sigh*"
 
-                    P "*laugh* Don't worry, we're going to break in like some professional thieves and steal his treasure!"
+    scene i149 #Z close eyes, think pose
+    with dissolve
 
-                    scene i148
-                    with dissolve
+    Z "*exhale* I'm going to regret this. I know I am."
 
-                    Z "You found it amusing when I brought up my detective novels, but here you are talking about thieving and treasure."
+    P "*laugh* Don't worry, we're going to break in like some professional thieves and steal his treasure!"
 
-                    P "Come on, are you saying you are not at least a little excited right now?"
+    scene i148
+    with dissolve
 
-                    Z "Of course not, we're about to commit a serious crime."
+    Z "You found it amusing when I brought up my detective novels, but here you are talking about thieving and treasure."
 
-                    scene i152 #Z hand down look away, smiling
-                    with dissolve
+    P "Come on, are you saying you are not at least a little excited right now?"
 
-                    Z "…That may be a little exciting."
+    Z "Of course not, we're about to commit a serious crime."
 
-                    "You laugh out loud."
+    scene i152 #Z hand down look away, smiling
+    with dissolve
 
-                    scene bs
-                    with dissolve
+    Z "…That may be a little exciting."
 
-                    "You take off to the man's house and find a window on the side of the house."
+    "You laugh out loud."
 
-                    scene i152-2 #Z face cam
-                    with dissolve
+    scene bs
+    with dissolve
 
-                    Z "Wait, aren't we forgetting just one little detail? What if he has an alarm?"
+    "You take off to the man's house and find a window on the side of the house."
 
-                    P "Don't worry. I've seen a video on Metube before that shows how to open a window, even with an alarm."
+    scene i152-2 #Z face cam
+    with dissolve
 
-                    scene i152-3 #Z move hand
-                    with dissolve
+    Z "Wait, aren't we forgetting just one little detail? What if he has an alarm?"
 
-                    Z "Do I even want to know why you were watching such a video?"
+    P "Don't worry. I've seen a video on Metube before that shows how to open a window, even with an alarm."
 
-                    P "*smile* Probably not."
+    scene i152-3 #Z move hand
+    with dissolve
 
-                    scene i152-4 #Z sigh look down
-                    with dissolve
+    Z "Do I even want to know why you were watching such a video?"
 
-                    Z "This keeps getting better and better. Just please do it before I come to my senses."
+    P "*smile* Probably not."
 
-                    scene bs
-                    with dissolve
+    scene i152-4 #Z sigh look down
+    with dissolve
 
-                    "You quickly open it with your credit card."
+    Z "This keeps getting better and better. Just please do it before I come to my senses."
 
-                    scene i153 #Z look at window
-                    with dissolve
+    scene bs
+    with dissolve
 
-                    Z "I'll admit I was a bit skeptical you would be able to do as you said, but sure enough…"
+    "You quickly open it with your credit card."
 
-                    P "Don't you ever doubt me, Zoe."
+    scene i153 #Z look at window
+    with dissolve
 
-                    scene i154 #Z smile
-                    with dissolve
+    Z "I'll admit I was a bit skeptical you would be able to do as you said, but sure enough…"
 
-                    Z "*laugh* My apologies, big shot. So what now?"
+    P "Don't you ever doubt me, Zoe."
 
-                    P "*smile* We should probably get inside before we get noticed."
+    scene i154 #Z smile
+    with dissolve
 
-                    scene i155 #cam hold out hand to window, Z turn to it.
-                    with dissolve
+    Z "*laugh* My apologies, big shot. So what now?"
 
-                    P "Ladies first."
+    P "*smile* We should probably get inside before we get noticed."
 
-                    Z "*mutter* Too late to turn back now."
+    scene i155 #cam hold out hand to window, Z turn to it.
+    with dissolve
 
-                    scene i156 #Z climb through
-                    with dissolve
+    P "Ladies first."
 
-                    "Of course your eyes try to absorb every inch of Zoe's backside as she climbs through the window."
+    Z "*mutter* Too late to turn back now."
 
-                    scene i157 #Z climb through 3rd
-                    with dissolve
+    scene i156 #Z climb through
+    with dissolve
 
-                    P "(I haven't made much romantic or sexual progress with Zoe, but, man am I hoping that changes soon.)"
+    "Of course your eyes try to absorb every inch of Zoe's backside as she climbs through the window."
 
-                    scene bs
-                    with dissolve
+    scene i157 #Z climb through 3rd
+    with dissolve
 
-                    "You climb through the window as soon as she's out of sight, and close it."
+    P "(I haven't made much romantic or sexual progress with Zoe, but, man am I hoping that changes soon.)"
 
-                    scene i158 #Z looking around room
-                    with dissolve
+    scene bs
+    with dissolve
 
-                    Z "I believe this is the master bedroom."
+    "You climb through the window as soon as she's out of sight, and close it."
 
-                    P "Good because I really hate the idea of sneaking through this entire house, even if it is empty."
+    scene i158 #Z looking around room
+    with dissolve
 
-                    scene i159 #z face cam
-                    with dissolve
+    Z "I believe this is the master bedroom."
 
-                    Z "Well, here's hoping we can find what we need in here. We should probably just split up. You take one half of the room, and I'll take the other."
+    P "Good because I really hate the idea of sneaking through this entire house, even if it is empty."
 
-                    P "Sounds like a plan, Dan."
+    scene i159 #z face cam
+    with dissolve
 
-                    scene i160 #Z smile
-                    with dissolve
+    Z "Well, here's hoping we can find what we need in here. We should probably just split up. You take one half of the room, and I'll take the other."
 
-                    Z "Right."
+    P "Sounds like a plan, Dan."
 
-                    menu:
+    scene i160 #Z smile
+    with dissolve
 
-                        "Check left dresser drawer":
+    Z "Right."
 
-                            scene i161 #cam hold out
-                            with dissolve
+    menu:
 
-                            "You go to the left dresser drawer, and the only thing you find is a nude magazine."
+        "Check left dresser drawer":
 
-                            P "(Eh… Probably better put this back before Zoe notices and I get called a pervert.)"
+            scene i161 #cam hold out
+            with dissolve
 
-                            scene i162
-                            with dissolve
+            "You go to the left dresser drawer, and the only thing you find is a nude magazine."
 
-                            "You take your time to carefully check out the rest of your side, and you do find some… interesting things, but nothing noteworthy."
+            P "(Eh… Probably better put this back before Zoe notices and I get called a pervert.)"
 
-                            Z "[p_name]… Come here, I think I found something!"
+            scene i162
+            with dissolve
 
-                            jump U8room
+            "You take your time to carefully check out the rest of your side, and you do find some… interesting things, but nothing noteworthy."
 
-                        "Check right dresser drawer":
+            Z "[p_name]… Come here, I think I found something!"
 
-                            scene i162 #cam hold pills
-                            with dissolve
+            jump U8room
 
-                            "You go to the right dresser drawer and find a bottle of blue pills."
+        "Check right dresser drawer":
 
-                            P "(Maybe we can shame him to death if we can't find anything incriminating.)"
+            scene i162 #cam hold pills
+            with dissolve
 
-                            scene i161
-                            with dissolve
+            "You go to the right dresser drawer and find a bottle of blue pills."
 
-                            "You take your time to carefully check out the rest of your side, and you do find some… interesting things, but nothing noteworthy."
+            P "(Maybe we can shame him to death if we can't find anything incriminating.)"
 
-                            Z "[p_name]… Come here, I think I found something!"
+            scene i161
+            with dissolve
 
-                            jump U8room
+            "You take your time to carefully check out the rest of your side, and you do find some… interesting things, but nothing noteworthy."
 
-                    label U8room:
+            Z "[p_name]… Come here, I think I found something!"
 
-                    scene i163 #Z hold up USB stick. Base i160
-                    with dissolve
+            jump U8room
 
-                    "You rush over."
+    label U8room:
 
-                    P "A USB drive? Yeah, this could definitely be something, alright."
+    scene i163 #Z hold up USB stick. Base i160
+    with dissolve
 
-                    scene i164 #cam hold hand for high five, she look at it
-                    with dissolve
+    "You rush over."
 
-                    P "Awesome job, Zo'. Up top."
+    P "A USB drive? Yeah, this could definitely be something, alright."
 
-                    Z "*giggle* I suppose this opportune moment is appropriate for a high-five."
+    scene i164 #cam hold hand for high five, she look at it
+    with dissolve
 
-                    scene i165 #Z in frame, kid at doorway, holding toy
-                    with dissolve
+    P "Awesome job, Zo'. Up top."
 
-                    GI "Who are you?"
+    Z "*giggle* I suppose this opportune moment is appropriate for a high-five."
 
-                    scene i166 # kid look at Z
-                    with dissolve
+    scene i165 #Z in frame, kid at doorway, holding toy
+    with dissolve
 
-                    "You and Zoe gasp before spinning to meet the person who posed the question."
+    GI "Who are you?"
 
-                    P "(So he did have a kid after all… Shit, this isn't good!)"
+    scene i166 # kid look at Z
+    with dissolve
 
-                    Z "H-Hi, sweetie. We're, uh… actually tooth fairies."
+    "You and Zoe gasp before spinning to meet the person who posed the question."
 
-                    scene i167 #kid excited
-                    with dissolve
+    P "(So he did have a kid after all… Shit, this isn't good!)"
 
-                    GI "Really? Daddy said you would come if I lost a tooth!"
+    Z "H-Hi, sweetie. We're, uh… actually tooth fairies."
 
-                    scene i167-2 #GI at both
-                    with dissolve
+    scene i167 #kid excited
+    with dissolve
 
-                    GI "But why are there two of you?"
+    GI "Really? Daddy said you would come if I lost a tooth!"
 
-                    scene i167
-                    with dissolve
+    scene i167-2 #GI at both
+    with dissolve
 
-                    GI "Oh, I know! You're husband and wife tooth fairies!"
+    GI "But why are there two of you?"
 
-                    Z "E-Exactly! You are such a smart girl. So you should go back to…"
+    scene i167
+    with dissolve
 
-                    GI "Husband and wife are supposed to kiss."
+    GI "Oh, I know! You're husband and wife tooth fairies!"
 
-                    scene i168 #Z glance at cam
-                    with dissolve
+    Z "E-Exactly! You are such a smart girl. So you should go back to…"
 
-                    Z "Well, uh, we aren't…"
+    GI "Husband and wife are supposed to kiss."
 
-                    scene i169 #GI mad
-                    with dissolve
+    scene i168 #Z glance at cam
+    with dissolve
 
-                    GI "If you won't kiss then you're not really married."
+    Z "Well, uh, we aren't…"
 
-                    scene i170 #Gi surprised
-                    with dissolve
+    scene i169 #GI mad
+    with dissolve
 
-                    GI "Are you strangers?! Stranger danger!"
+    GI "If you won't kiss then you're not really married."
 
-                    "Her loud high-pitched voice is sure to draw attention, so it makes your heart race faster than it already is."
+    scene i170 #Gi surprised
+    with dissolve
 
-                    scene i170-2 #cam hold up hands
-                    with dissolve
+    GI "Are you strangers?! Stranger danger!"
 
-                    P "No, no, no! W-We are husband and wife tooth fairies."
+    "Her loud high-pitched voice is sure to draw attention, so it makes your heart race faster than it already is."
 
-                    P "L-Look, we'll kiss right now."
+    scene i170-2 #cam hold up hands
+    with dissolve
 
-                    scene i171 #cam face Z surprised shock
-                    with dissolve
+    P "No, no, no! W-We are husband and wife tooth fairies."
 
-                    Z "What, are you crazy?"
+    P "L-Look, we'll kiss right now."
 
-                    P "*whisper* Do you want her to scream her lungs out???"
+    scene i171 #cam face Z surprised shock
+    with dissolve
 
-                    scene i171-2 #Z look to kid more panic
-                    with dissolve
+    Z "What, are you crazy?"
 
-                    GI "Are you husband and wife or not?!"
+    P "*whisper* Do you want her to scream her lungs out???"
 
-                    scene i171
-                    with dissolve
+    scene i171-2 #Z look to kid more panic
+    with dissolve
 
-                    Z "F-Fine, hurry up!"
+    GI "Are you husband and wife or not?!"
 
-                    scene i172 #cam kiss Z awkward
-                    with dissolve
+    scene i171
+    with dissolve
 
-                    "You and Zoe share an awkward kiss as she stiffens when your lips press against hers, and you're not exactly in the best state with your heart pounding."
+    Z "F-Fine, hurry up!"
 
-                    scene i173 #Z opens eyes
-                    with dissolve
+    scene i172 #cam kiss Z awkward
+    with dissolve
 
-                    Z "???"
+    "You and Zoe share an awkward kiss as she stiffens when your lips press against hers, and you're not exactly in the best state with your heart pounding."
 
-                    "Zoe tries to say something as you continue pushing your mouth into hers, oblivious."
+    scene i173 #Z opens eyes
+    with dissolve
 
-                    P "(Holy shit, I can't believe I'm actually kissing Zoe right now. Not exactly the best circumstances, but beggars can't be choosers.)"
+    Z "???"
 
-                    scene i174 #Z Normal kiss
-                    with dissolve
+    "Zoe tries to say something as you continue pushing your mouth into hers, oblivious."
 
-                    Z "Mmmm…"
+    P "(Holy shit, I can't believe I'm actually kissing Zoe right now. Not exactly the best circumstances, but beggars can't be choosers.)"
 
-                    "Zoe relaxes against you and you have calmed down a lot as well, now savoring the moment of her soft lips that have a sweet flavor."
+    scene i174 #Z Normal kiss
+    with dissolve
 
-                    GI "Hehe. You really are husband and wife!"
+    Z "Mmmm…"
 
-                    scene i167
-                    with dissolve
+    "Zoe relaxes against you and you have calmed down a lot as well, now savoring the moment of her soft lips that have a sweet flavor."
 
-                    "You finally snap back to reality."
+    GI "Hehe. You really are husband and wife!"
 
-                    P "(Shit, I didn't even realize I was carrying on with that kiss.)"
+    scene i167
+    with dissolve
 
-                    Z "S-See? We told you we were. Now you should go to sleep so we can do our job, right?"
+    "You finally snap back to reality."
 
-                    scene i175 #kid turn around
-                    with dissolve
+    P "(Shit, I didn't even realize I was carrying on with that kiss.)"
 
-                    ML "Why is the hallway light open...?"
+    Z "S-See? We told you we were. Now you should go to sleep so we can do our job, right?"
 
-                    ML "Danielle?"
+    scene i175 #kid turn around
+    with dissolve
 
-                    GI "Daddy, I'm here talking to the tooth fairies!"
+    ML "Why is the hallway light open...?"
 
-                    P "(Are you freaking kidding me? He's supposed to still be at the bar!)"
+    ML "Danielle?"
 
-                    $ timeout_label = "missedit2"
-                    menu (screen = "timer_choice"):
+    GI "Daddy, I'm here talking to the tooth fairies!"
 
-                        "Hide! [ZoePath]":
+    P "(Are you freaking kidding me? He's supposed to still be at the bar!)"
 
-                            $ zpts = zpts + 1
+    $ timeout_label = "missedit2"
+    menu (screen = "timer_choice"):
 
-                            "You spin on your heels and drag Zoe into the closet nearby."
+        "Hide! [ZoePath]":
 
-                            jump U8hide
+            $ zpts = zpts + 1
 
-                    label missedit2:
+            "You spin on your heels and drag Zoe into the closet nearby."
 
-                    "You feel Zoe grab your arm to pull you into the closet nearby."
+            jump U8hide
 
-                    jump U8hide
+    label missedit2:
 
-                    label U8hide:
+    "You feel Zoe grab your arm to pull you into the closet nearby."
 
-                    scene i176 #cam on Z body
-                    with dissolve
+    jump U8hide
 
-                    ML "What's this about fairies?"
+    label U8hide:
 
-                    GI "They came to see me! You were right, Daddy!"
+    scene i176 #cam on Z body
+    with dissolve
 
-                    "You can barely focus on the conversation as Zoe's body fills your vision."
+    ML "What's this about fairies?"
 
-                    P "(DO NOT GET HARD.}"
+    GI "They came to see me! You were right, Daddy!"
 
-                    scene i177 #cam on Z looking at boner
-                    with dissolve
+    "You can barely focus on the conversation as Zoe's body fills your vision."
 
-                    ML "*laugh* See, I told you, and you didn't even believe me at first when I told you. But now it's time for bed, little girl. Come on."
+    P "(DO NOT GET HARD.}"
 
-                    "You start to breathe as their voices disappear down the hall."
+    scene i177 #cam on Z looking at boner
+    with dissolve
 
-                    scene i178 #Z look at cam neu
-                    with dissolve
+    ML "*laugh* See, I told you, and you didn't even believe me at first when I told you. But now it's time for bed, little girl. Come on."
 
-                    Z "*whisper* I think we should go now before he comes back."
+    "You start to breathe as their voices disappear down the hall."
 
-                    "All you can do is nod with your mouth not working."
+    scene i178 #Z look at cam neu
+    with dissolve
 
-                    P "(That was way too close, in more ways than one.)"
+    Z "*whisper* I think we should go now before he comes back."
 
-                    scene bs
-                    with dissolve
+    "All you can do is nod with your mouth not working."
 
-                    "You both return home."
+    P "(That was way too close, in more ways than one.)"
 
-                    scene i186 #Z look at laptop
-                    with dissolve
+    scene bs
+    with dissolve
 
-                    "And watch the computer screen intently after inserting the thumb drive."
+    "You both return home."
 
-                    P "Hmm, it's encrypted."
+    scene i186 #Z look at laptop
+    with dissolve
 
-                    Z "So we can't access it…"
+    "And watch the computer screen intently after inserting the thumb drive."
 
-                    P "Well, this is technically a good thing."
+    P "Hmm, it's encrypted."
 
-                    scene i187 #Z at cam
-                    with dissolve
+    Z "So we can't access it…"
 
-                    Z "How is this in any way shape or form a good thing?"
+    P "Well, this is technically a good thing."
 
-                    P "The drive being encrypted most likely means there's something on there worth protecting… Or hiding."
+    scene i187 #Z at cam
+    with dissolve
 
-                    scene i188 #Z surprised
-                    with dissolve
+    Z "How is this in any way shape or form a good thing?"
 
-                    Z "Ah, you're right. I wasn't thinking about that. But what do we do now?"
+    P "The drive being encrypted most likely means there's something on there worth protecting… Or hiding."
 
-                    P "*smile* I think I know who could help us."
+    scene i188 #Z surprised
+    with dissolve
 
-                    scene bs
-                    with dissolve
+    Z "Ah, you're right. I wasn't thinking about that. But what do we do now?"
 
-                    "You take Zoe to Coral's room."
+    P "*smile* I think I know who could help us."
 
-                    scene i189 #C on computer, Z in shot
-                    with dissolve
+    scene bs
+    with dissolve
 
-                    C "Welcome to my humble abode. How can I help you, madam and sir?"
+    "You take Zoe to Coral's room."
 
-                    scene i190 #cam hold out drive
-                    with dissolve
+    scene i189 #C on computer, Z in shot
+    with dissolve
 
-                    P "Think you can hack this drive?"
+    C "Welcome to my humble abode. How can I help you, madam and sir?"
 
-                    C "What's the level of encryption?"
+    scene i190 #cam hold out drive
+    with dissolve
 
-                    P "Not sure, that's more your lane."
+    P "Think you can hack this drive?"
 
-                    scene i190-2 #closeup C
-                    with dissolve
+    C "What's the level of encryption?"
 
-                    "You hear a man complaining from Coral's speakers."
+    P "Not sure, that's more your lane."
 
-                    C "How 'bout you stop camping and actually go and find the enemy instead of complaining about my play, jack off."
+    scene i190-2 #closeup C
+    with dissolve
 
-                    Z "Coral, we have an important matter that requires your attention. You can play your game later."
+    "You hear a man complaining from Coral's speakers."
 
-                    scene i190-3 #closeup C look back
-                    with dissolve
+    C "How 'bout you stop camping and actually go and find the enemy instead of complaining about my play, jack off."
 
-                    C "Ugh, fine. Hold on."
+    Z "Coral, we have an important matter that requires your attention. You can play your game later."
 
-                    scene i191 #C face cam
-                    with dissolve
+    scene i190-3 #closeup C look back
+    with dissolve
 
-                    C "Lemme see the drive."
+    C "Ugh, fine. Hold on."
 
-                    "Coral grabs it."
+    scene i191 #C face cam
+    with dissolve
 
-                    scene i193 #Base i189 different screen
-                    with dissolve
+    C "Lemme see the drive."
 
-                    "Then she plugs it in and starts tapping away."
+    "Coral grabs it."
 
-                    C "What, you take this from the president or something?"
+    scene i193 #Base i189 different screen
+    with dissolve
 
-                    Z "Why? Is the level of protection that high?"
+    "Then she plugs it in and starts tapping away."
 
-                    scene i194 #C face cam. Base i185
-                    with dissolve
+    C "What, you take this from the president or something?"
 
-                    C "That's putting it mildly."
+    Z "Why? Is the level of protection that high?"
 
-                    P "Think you'll be able to crack it?"
+    scene i194 #C face cam. Base i185
+    with dissolve
 
-                    C "I don't have the equipment here, but I know a guy who can definitely crack it for you."
+    C "That's putting it mildly."
 
-                    scene i200 #C put hand behind head and look away
-                    with dissolve
+    P "Think you'll be able to crack it?"
 
-                    C "Eh… the only problem is that he's a little strange."
+    C "I don't have the equipment here, but I know a guy who can definitely crack it for you."
 
-                    P "What do you mean?"
+    scene i200 #C put hand behind head and look away
+    with dissolve
 
-                    scene i194
-                    with dissolve
+    C "Eh… the only problem is that he's a little strange."
 
-                    C "He's honestly not a bad guy or anything, but he'll probably want something in exchange for his help, so just do whatever he wants."
+    P "What do you mean?"
 
-                    Z "And you're saying we can trust this man?"
+    scene i194
+    with dissolve
 
-                    C "Pretty much."
+    C "He's honestly not a bad guy or anything, but he'll probably want something in exchange for his help, so just do whatever he wants."
 
-                    Z "What a reassuring answer."
+    Z "And you're saying we can trust this man?"
 
-                    scene i201 #C move hand
-                    with dissolve
+    C "Pretty much."
 
-                    C "Hey, it's up to you. How badly do you want this thing cracked?"
+    Z "What a reassuring answer."
 
-                    Z "*sigh*"
+    scene i201 #C move hand
+    with dissolve
 
-                    scene bs
-                    with dissolve
+    C "Hey, it's up to you. How badly do you want this thing cracked?"
 
-                    "It's not long before you and Zoe are venturing out to meet the hacker extraordinaire named 'Man.'"
+    Z "*sigh*"
 
-                    scene i202 #Z walk to door
-                    with dissolve
+    scene bs
+    with dissolve
 
-                    Z "This isn't exactly the safest part of town."
+    "It's not long before you and Zoe are venturing out to meet the hacker extraordinaire named 'Man.'"
 
-                    P "I know, so it's probably smart if we do what we came here for and peel out. But you will protect me if anything happens, right?"
+    scene i202 #Z walk to door
+    with dissolve
 
-                    scene i203 #Z hold it up, slightly look back
-                    with dissolve
+    Z "This isn't exactly the safest part of town."
 
-                    Z "*giggle* Of course. I always have my taser ready."
+    P "I know, so it's probably smart if we do what we came here for and peel out. But you will protect me if anything happens, right?"
 
-                    P "Ha, I was kidding, but I guess I really don't have anything to worry about now."
+    scene i203 #Z hold it up, slightly look back
+    with dissolve
 
-                    scene i204 #Z knock at door
-                    with dissolve
+    Z "*giggle* Of course. I always have my taser ready."
 
-                    "Before Zoe can knock, you hear speakers crackle from nowhere in particular."
+    P "Ha, I was kidding, but I guess I really don't have anything to worry about now."
 
-                    MA "Who are you? Did Geraldine send you? I told her I would have her stuff ready in a few days."
+    scene i204 #Z knock at door
+    with dissolve
 
-                    scene i205 #Z hand down
-                    with dissolve
+    "Before Zoe can knock, you hear speakers crackle from nowhere in particular."
 
-                    Z "No, we were sent here by Coral? She said she contacted you to let you know we were coming."
+    MA "Who are you? Did Geraldine send you? I told her I would have her stuff ready in a few days."
 
-                    "There's no response."
+    scene i205 #Z hand down
+    with dissolve
 
-                    Z "Hello?"
+    Z "No, we were sent here by Coral? She said she contacted you to let you know we were coming."
 
-                    "…"
+    "There's no response."
 
-                    scene i206 #Z turn to cam
-                    with dissolve
+    Z "Hello?"
 
-                    Z "He's not responding."
+    "…"
 
-                    MA "What's the password?"
+    scene i206 #Z turn to cam
+    with dissolve
 
-                    scene i205
-                    with dissolve
+    Z "He's not responding."
 
-                    Z "What? We were given no password. Coral simply told us to come here, so you could look at our encrypted USB drive."
+    MA "What's the password?"
 
-                    MA "There's no password anyway."
+    scene i205
+    with dissolve
 
-                    scene i207 #Z move hand
-                    with dissolve
+    Z "What? We were given no password. Coral simply told us to come here, so you could look at our encrypted USB drive."
 
-                    Z "Enough of your games, Man or whatever it is you are called. Will you help us or not?"
+    MA "There's no password anyway."
 
-                    MA "Alright, alright. Easy, tiger, just making sure you were who you said you were."
+    scene i207 #Z move hand
+    with dissolve
 
-                    "*click*"
+    Z "Enough of your games, Man or whatever it is you are called. Will you help us or not?"
 
-                    MA "Door's open."
+    MA "Alright, alright. Easy, tiger, just making sure you were who you said you were."
 
-                    scene i206
-                    with dissolve
+    "*click*"
 
-                    Z "We've been here less than five minutes and I already want to beat this 'Man' with the biggest stick I can find."
+    MA "Door's open."
 
-                    P "Haha, I feel you, but let's hold off until we actually get the USB taken care of, eh?"
+    scene i206
+    with dissolve
 
-                    scene i208 #Z smile
-                    with dissolve
+    Z "We've been here less than five minutes and I already want to beat this 'Man' with the biggest stick I can find."
 
-                    Z "No promises, but I shall try."
+    P "Haha, I feel you, but let's hold off until we actually get the USB taken care of, eh?"
 
-                    scene bs
-                    with dissolve
+    scene i208 #Z smile
+    with dissolve
 
-                    "You are ushered to a back room as soon as you enter."
+    Z "No promises, but I shall try."
 
-                    scene i210 #Z stand look at Ma who on computer
-                    with dissolve
+    scene bs
+    with dissolve
 
-                    P "Hey, you're Man, right?"
+    "You are ushered to a back room as soon as you enter."
 
-                    "…"
+    scene i210 #Z stand look at Ma who on computer
+    with dissolve
 
-                    P "(Did he not hear me?)"
+    P "Hey, you're Man, right?"
 
-                    MA "Drive."
+    "…"
 
-                    P "Drive? You want to go somewhere?"
+    P "(Did he not hear me?)"
 
-                    scene i211 #MA raise hand
-                    with dissolve
+    MA "Drive."
 
-                    MA "Give me the thumb drive."
+    P "Drive? You want to go somewhere?"
 
-                    P "Oh, my bad."
+    scene i211 #MA raise hand
+    with dissolve
 
-                    scene i212 #Cam give MA drive
-                    with dissolve
+    MA "Give me the thumb drive."
 
-                    P "Here you go."
+    P "Oh, my bad."
 
-                    scene i210
-                    with dissolve
+    scene i212 #Cam give MA drive
+    with dissolve
 
-                    "He plugs it in and starts tapping away the same way Coral did."
+    P "Here you go."
 
-                    MA "Alright."
+    scene i210
+    with dissolve
 
-                    Z "Alright? You're finished already?"
+    "He plugs it in and starts tapping away the same way Coral did."
 
-                    MA "Of course not. My program is taking care of everything, so it should take…"
+    MA "Alright."
 
-                    scene i213 #MA look at Z surprised
-                    with dissolve
+    Z "Alright? You're finished already?"
 
-                    MA "My, hello there."
+    MA "Of course not. My program is taking care of everything, so it should take…"
 
-                    MA "Coral did not tell me she was sending someone so… alluring."
+    scene i213 #MA look at Z surprised
+    with dissolve
 
-                    scene i215 #MA hold out hand
-                    with dissolve
+    MA "My, hello there."
 
-                    MA "A pleasure to meet you. My name is Man."
+    MA "Coral did not tell me she was sending someone so… alluring."
 
-                    Z "Charmed."
+    scene i215 #MA hold out hand
+    with dissolve
 
-                    scene i216 #MA look at hand
-                    with dissolve
+    MA "A pleasure to meet you. My name is Man."
 
-                    MA "Uh, right."
+    Z "Charmed."
 
-                    P "I have to ask, what's up with the nickname?"
+    scene i216 #MA look at hand
+    with dissolve
 
-                    scene i217 #MA look at cam
-                    with dissolve
+    MA "Uh, right."
 
-                    MA "Well, believe it or not, I wasn't always the impressive specimen you see before you now."
+    P "I have to ask, what's up with the nickname?"
 
-                    P "(I believe it.)"
+    scene i217 #MA look at cam
+    with dissolve
 
-                    MA "So, I was bullied back in school, and there was one incident where they stripped my towel off in gym class, and saw what I was packing."
+    MA "Well, believe it or not, I wasn't always the impressive specimen you see before you now."
 
-                    scene i218 #MA hold out arms
-                    with dissolve
+    P "(I believe it.)"
 
-                    "The rest is history."
+    MA "So, I was bullied back in school, and there was one incident where they stripped my towel off in gym class, and saw what I was packing."
 
-                    scene i219 #Z look down towards cam
-                    with dissolve
+    scene i218 #MA hold out arms
+    with dissolve
 
-                    Z "*mutter* Repulsive."
+    "The rest is history."
 
-                    scene i217
-                    with dissolve
+    scene i219 #Z look down towards cam
+    with dissolve
 
-                    P "Huh, interesting. As for the USB, you'll let us know whenever it's finished?"
+    Z "*mutter* Repulsive."
 
-                    MA "Not so fast, my pretty friend. I'm not exactly running a charity here. I need you to do something for me too. It's only fair, right?"
+    scene i217
+    with dissolve
 
-                    Z "I suppose it is fair. What do you require of us?"
+    P "Huh, interesting. As for the USB, you'll let us know whenever it's finished?"
 
-                    scene i220 #MA get up to walk passed them
-                    with dissolve
+    MA "Not so fast, my pretty friend. I'm not exactly running a charity here. I need you to do something for me too. It's only fair, right?"
 
-                    MA "Not only alluring but practical too. I dig it."
+    Z "I suppose it is fair. What do you require of us?"
 
-                    MA "I've been working on a sensory processing program."
+    scene i220 #MA get up to walk passed them
+    with dissolve
 
-                    P "What?"
+    MA "Not only alluring but practical too. I dig it."
 
-                    MA "Ah… basically taking your senses and cranking them up."
+    MA "I've been working on a sensory processing program."
 
-                    scene i221 #MA tinkering with helmets on couch
-                    with dissolve
+    P "What?"
 
-                    MA "And I need to gather some data for a shared experience. So that's where you two come in."
+    MA "Ah… basically taking your senses and cranking them up."
 
-                    Z "And your device is safe?"
+    scene i221 #MA tinkering with helmets on couch
+    with dissolve
 
-                    MA "Yeah, relatively. You're not going to die or anything."
+    MA "And I need to gather some data for a shared experience. So that's where you two come in."
 
-                    Z "…"
+    Z "And your device is safe?"
 
-                    scene i222 #MA face cam
-                    with dissolve
+    MA "Yeah, relatively. You're not going to die or anything."
 
-                    MA "I'm kidding, I'm kidding. Worst thing that can happen is you get dizzy and have to take the headset off."
+    Z "…"
 
-                    Z "*sigh* Fine. Let's get this over with."
+    scene i222 #MA face cam
+    with dissolve
 
-                    scene i223 #cam on Z holding helmet look at at
-                    with dissolve
+    MA "I'm kidding, I'm kidding. Worst thing that can happen is you get dizzy and have to take the headset off."
 
-                    P "Ready?"
+    Z "*sigh* Fine. Let's get this over with."
 
-                    scene i224 #Z at cam
-                    with dissolve
+    scene i223 #cam on Z holding helmet look at at
+    with dissolve
 
-                    Z "I guess as I'll ever be. Let's go."
+    P "Ready?"
 
-                    scene bs
-                    with dissolve
+    scene i224 #Z at cam
+    with dissolve
 
-                    "You and Zoe put on the helmets and everything turns black, and all sound gets cut off."
-                    label galleryScene9:
-                    scene i225 #cam look at clouds
-                    with dissolve
+    Z "I guess as I'll ever be. Let's go."
 
-                    "And everything soon comes rushing back all at once, almost like you emerged from underwater."
+    scene bs
+    with dissolve
 
-                    P "(Damn this is so trippy. I feel so light and free, like nothing in this world can bother me.)"
+    "You and Zoe put on the helmets and everything turns black, and all sound gets cut off."
+    label galleryScene9:
+    scene i225 #cam look at clouds
+    with dissolve
 
-                    Z "[p_name]."
+    "And everything soon comes rushing back all at once, almost like you emerged from underwater."
 
-                    scene i226 #cam on Z
-                    with dissolve
+    P "(Damn this is so trippy. I feel so light and free, like nothing in this world can bother me.)"
 
-                    P "Zoe, you're glowing… And naked."
+    Z "[p_name]."
 
-                    Z "You are too."
+    scene i226 #cam on Z
+    with dissolve
 
-                    P "I am?"
+    P "Zoe, you're glowing… And naked."
 
-                    scene i227 #cam hold out arms
-                    with dissolve
+    Z "You are too."
 
-                    P "I guess I am."
+    P "I am?"
 
-                    "Maybe you would be self-conscious if this were reality, but again, you just feel so free and easygoing."
+    scene i227 #cam hold out arms
+    with dissolve
 
-                    scene i226
-                    with dissolve
+    P "I guess I am."
 
-                    P "How do you feel?"
+    "Maybe you would be self-conscious if this were reality, but again, you just feel so free and easygoing."
 
-                    scene i228 #Z look at hand
-                    with dissolve
+    scene i226
+    with dissolve
 
-                    Z "I feel… good."
+    P "How do you feel?"
 
-                    scene i229 #cam float closer
-                    with dissolve
+    scene i228 #Z look at hand
+    with dissolve
 
-                    "You float closer to her, feeling heat radiate off her illuminated body, and when you press your hand against hers, both of your heat seem to merge, and you feel a wave of it rush through your body."
+    Z "I feel… good."
 
-                    Z "I feel like we are connected."
+    scene i229 #cam float closer
+    with dissolve
 
-                    P "It feels good."
+    "You float closer to her, feeling heat radiate off her illuminated body, and when you press your hand against hers, both of your heat seem to merge, and you feel a wave of it rush through your body."
 
-                    scene i231 #z close eyes float. Cam above
-                    with dissolve
+    Z "I feel like we are connected."
 
-                    "You and Zoe are soon floating around and just enjoying the new and weird sensations that resonate with every part of your bodies."
+    P "It feels good."
 
-                    P "Zoe, why did you change?"
+    scene i231 #z close eyes float. Cam above
+    with dissolve
 
-                    "You realize you asked such a deep question nonchalantly, but know that Zoe won't be offended with your new virtual connection."
+    "You and Zoe are soon floating around and just enjoying the new and weird sensations that resonate with every part of your bodies."
 
-                    scene i232 #cam move under Z
-                    with dissolve
+    P "Zoe, why did you change?"
 
-                    Z "To protect everyone."
+    "You realize you asked such a deep question nonchalantly, but know that Zoe won't be offended with your new virtual connection."
 
-                    P "Protect everyone?"
+    scene i232 #cam move under Z
+    with dissolve
 
-                    Z "Yes. As John became more strict and unforgiving with his lessons and punishments for failing those lessons, I realized that I needed to become strong to be able to check him."
+    Z "To protect everyone."
 
-                    scene i231
-                    with dissolve
+    P "Protect everyone?"
 
-                    Z "And that I needed to make sure none of us were dependent on him. So that we would be able to survive."
+    Z "Yes. As John became more strict and unforgiving with his lessons and punishments for failing those lessons, I realized that I needed to become strong to be able to check him."
 
-                    P "(So that's why she's always on everybody's case.)"
+    scene i231
+    with dissolve
 
-                    scene i232-1 #mc z float
-                    with dissolve
+    Z "And that I needed to make sure none of us were dependent on him. So that we would be able to survive."
 
-                    Z "But I fear that I'm becoming like him. What if I already am? Leanne dislikes me and so does Coral."
+    P "(So that's why she's always on everybody's case.)"
 
-                    scene i233 #Z eyes open
-                    with dissolve
+    scene i232-1 #mc z float
+    with dissolve
 
-                    P "That's not true at all. Coral has told me so many times how she'd be doomed without you."
+    Z "But I fear that I'm becoming like him. What if I already am? Leanne dislikes me and so does Coral."
 
-                    P "And Leanne asks me if you're still being annoying, but I know that's her way of checking on you."
+    scene i233 #Z eyes open
+    with dissolve
 
-                    scene i234 #Z smile
-                    with dissolve
+    P "That's not true at all. Coral has told me so many times how she'd be doomed without you."
 
-                    Z "I suppose that does make me feel better. But do you think that I should change to be more agreeable?"
+    P "And Leanne asks me if you're still being annoying, but I know that's her way of checking on you."
 
-                    menu:
+    scene i234 #Z smile
+    with dissolve
 
-                        "Yes [ZoePath]":
+    Z "I suppose that does make me feel better. But do you think that I should change to be more agreeable?"
 
-                            $ zpts = zpts + 2
+    menu:
 
-                            P "I don't think 'change' is the right word. We all have different sides to us, so I think you just need to show your free side more."
+        "Yes [ZoePath]":
 
-                            jump U8change
+            $ zpts = zpts + 2
 
-                        "No":
+            P "I don't think 'change' is the right word. We all have different sides to us, so I think you just need to show your free side more."
 
-                            $ zpts = zpts + 1
+            jump U8change
 
-                            P "No, I don't think you need to change anything."
+        "No":
 
-                            Z "I understand. I won't change who I am, but I think I've forgotten a part of me that was more free before, so I should remember that's also a part of who I am."
+            $ zpts = zpts + 1
 
-                            P "*smile* I think that's an awesome way to look at it, Zo'. We all have different sides to ourselves."
+            P "No, I don't think you need to change anything."
 
-                            jump U8change
+            Z "I understand. I won't change who I am, but I think I've forgotten a part of me that was more free before, so I should remember that's also a part of who I am."
 
-                    label U8change:
-                        $ renpy.end_replay()
-                    scene bs
-                    with dissolve
+            P "*smile* I think that's an awesome way to look at it, Zo'. We all have different sides to ourselves."
 
-                    "You and Zoe spend a little more time in the virtual reality before exiting."
+            jump U8change
 
-                    scene i235 #Base  Z smiling
-                    with dissolve
+    label U8change:
+    $ renpy.end_replay()
+    scene bs
+    with dissolve
 
-                    P "Man, that was a trip, wasn't it?"
+    "You and Zoe spend a little more time in the virtual reality before exiting."
 
-                    P "(Didn't expect a therapy session out of that, but I feel like I understand Zoe on a whole new level now.)"
+    scene i235 #Base  Z smiling
+    with dissolve
 
-                    Z "It was indeed. And I feel much freer because of it. So expect a better me from now on."
+    P "Man, that was a trip, wasn't it?"
 
-                    scene i217
-                    with dissolve
+    P "(Didn't expect a therapy session out of that, but I feel like I understand Zoe on a whole new level now.)"
 
-                    "You two talk with Man a bit and you plan to return to collect the encrypted USB stick as soon as he's done with it."
+    Z "It was indeed. And I feel much freer because of it. So expect a better me from now on."
 
-                    scene bs
-                    with dissolve
+    scene i217
+    with dissolve
 
-                    "OKAY, PEOPLE. THIS IS THE END OF UPDATE 8 FOR SECRET SUMMER."
+    "You two talk with Man a bit and you plan to return to collect the encrypted USB stick as soon as he's done with it."
 
-                    "IF YOU WANT TO SEE MORE. PLEASE CONSIDER SUPPORTING MY PATREON. EVERY DOLLAR HELPS, SERIOUSLY."
+    jump mm
 
-                    "SEE YOU NEXT UPDATE!"
+label mm:
+
+    scene bs
+    with dissolve
+
+    stop music
+
+    "THE GENERAL STORY IS FINISHED, AND NOW THE ROUTES BEGIN!"
+
+    menu:
+
+        "Norah's solo route (UPDATE 0 of ???)":
+
+            "THIS ROUTE HASN'T STARTED YET! COME BACK LATER!"
+
+            jump mm
+
+        "{color=#cc00cc}Irene's solo route (UPDATE 1 of ???){/color}":
+
+            if iroute == True:
+
+                jump iroute
+
+            else:
+
+                "YOU'RE NOT ON THIS ROUTE!"
+
+                jump mm
+
+        "Leanne's solo route (UPDATE 0 of ???)":
+
+            "THIS ROUTE HASN'T STARTED YET! COME BACK LATER!"
+
+            jump mm
+
+        "Zoe's solo route (UPDATE 0 of ???)":
+
+            "THIS ROUTE HASN'T STARTED YET! COME BACK LATER!"
+
+            jump mm
+
+
+        "Coral's solo route (UPDATE 0 of ???)":
+
+            "THIS ROUTE HASN'T STARTED YET! COME BACK LATER!"
+
+            jump mm

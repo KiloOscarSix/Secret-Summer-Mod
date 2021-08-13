@@ -26,6 +26,11 @@ define GI = Character('Little Girl', color="#ffffff")
 define ML = Character('Miguel Lopez', color="#ffffff")
 define MA = Character('Man', color="#ffffff")
 define DD = Character('Dealer', color="#ffffff")
+define CC = Character('Carl', color="#ffffff")
+define MI = Character('Maid', color="#ffffff")
+define HO = Character('Hostess', color="#ffffff")
+define YA = Character('Yakuza', color="#ffffff")
+define PI = Character('Pilot', color="#ffffff")
 
 default con1 = False
 default con2 = False
